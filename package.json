@@ -53,7 +53,8 @@
     "sql-escape-string": "^1.1.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+     "@code-oss-org:registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
