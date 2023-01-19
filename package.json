@@ -23,7 +23,6 @@
     "ktlint:format": "cd native/androidTest; ./gradlew ktlintFormat",
     "android:emulator": "./scripts/emulatorWithJavaCheck",
     "docs": "./scripts/mdbook",
-    "docs:dev": "./scripts/mdbook-dev"
     "docs:dev": "./scripts/mdbook-dev",
     "expo-plugin:build": "tsc --project tsconfig.expo.json"
   },
@@ -58,7 +57,6 @@
   },
   "publishConfig": {
     "access": "public",
-     "@code-oss-org:registry": "https://npm.pkg.github.com"
     "@code-oss-org:registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
@@ -155,7 +153,7 @@
     "semver": "^6.0.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
     "tslint-config-prettier": "^1.15.0"
   },
   "peerDependencies": {
