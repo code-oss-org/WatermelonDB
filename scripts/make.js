@@ -127,6 +127,7 @@ const copyNonJavaScriptFiles = buildPath => {
     'native/ios',
     'native/android',
     'native/android-jsi',
+    'app.plugin.js',
   ])
   cleanFolder(`${buildPath}/native/android/build`)
   cleanFolder(`${buildPath}/native/android/bin/build`)
