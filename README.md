@@ -10,6 +10,13 @@
   Build powerful React and React Native apps that scale from hundreds to tens of thousands of records and remain <em>fast</em> ⚡️
 </p>
 
+<hr>
+<p align="center">
+  ⚠️⚠️⚠️⚠️⚠️ This is a watermelondb fork ⚠️⚠️⚠️⚠️⚠️
+  <br>🚀 This fork is intended to patch some issues and add some useful features on top of the official stable release
+</p>
+<hr>
+
 <p align="center">
   <a href="https://github.com/Nozbe/WatermelonDB/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License">
