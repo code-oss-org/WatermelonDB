@@ -8,6 +8,7 @@ yarn-error.log
 
 dist/
 dev/
+src/expo-plugin/build/
 
 *.tgz
 coverage/
