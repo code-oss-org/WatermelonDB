@@ -1,4 +1,4 @@
-declare module '@nozbe/watermelondb/Model' {
+declare module '@code-oss-org/watermelondb/Model' {
   import {
     Collection,
     CollectionMap,
@@ -6,7 +6,7 @@ declare module '@nozbe/watermelondb/Model' {
     Database,
     RawRecord,
     TableName,
-  } from '@nozbe/watermelondb'
+  } from '@code-oss-org/watermelondb'
   import { Observable } from 'rxjs'
 
   export type RecordId = string

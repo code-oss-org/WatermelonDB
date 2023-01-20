@@ -1,5 +1,5 @@
-declare module '@nozbe/watermelondb/observation/reloadingObserver' {
-  import { Model, Query } from '@nozbe/watermelondb'
+declare module '@code-oss-org/watermelondb/observation/reloadingObserver' {
+  import { Model, Query } from '@code-oss-org/watermelondb'
   import { Observable } from 'rxjs'
 
   export default function reloadingObserver<Record extends Model>(

@@ -1,6 +1,6 @@
-declare module '@nozbe/watermelondb/DatabaseProvider' {
+declare module '@code-oss-org/watermelondb/DatabaseProvider' {
   import * as React from 'react'
-  import Database from '@nozbe/watermelondb/Database'
+  import Database from '@code-oss-org/watermelondb/Database'
   import { NonReactStatics } from 'hoist-non-react-statics'
 
   type GetProps<C> = C extends React.ComponentType<infer P & { database?: Database }> ? P : never

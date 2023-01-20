@@ -1,5 +1,5 @@
-declare module '@nozbe/watermelondb/Model/helper' {
-  import { Model } from '@nozbe/watermelondb'
+declare module '@code-oss-org/watermelondb/Model/helper' {
+  import { Model } from '@code-oss-org/watermelondb'
 
   export const hasUpdatedAt: (obj: Object) => boolean
 

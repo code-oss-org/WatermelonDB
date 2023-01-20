@@ -1,4 +1,4 @@
-declare module '@nozbe/watermelondb/Database' {
+declare module '@code-oss-org/watermelondb/Database' {
   import {
     AppSchema,
     CollectionMap,
@@ -6,9 +6,9 @@ declare module '@nozbe/watermelondb/Database' {
     Model,
     TableName,
     Collection,
-  } from '@nozbe/watermelondb'
-  import { CollectionChangeSet } from '@nozbe/watermelondb/Collection'
-  import { Class } from '@nozbe/watermelondb/utils/common'
+  } from '@code-oss-org/watermelondb'
+  import { CollectionChangeSet } from '@code-oss-org/watermelondb/Collection'
+  import { Class } from '@code-oss-org/watermelondb/utils/common'
   import { Observable } from 'rxjs'
 
   interface ReaderInterface {
