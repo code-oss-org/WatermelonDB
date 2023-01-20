@@ -14,7 +14,7 @@ if (!isRN) {
     `font-size: 40px; background: red; color: white; font-weight: bold`,
   )
 }
-console.warn('WARNING: DO NOT commit import of @nozbe/watermelondb/sync/debugPrintChanges!')
+console.warn('WARNING: DO NOT commit import of @code-oss-org/watermelondb/sync/debugPrintChanges!')
 
 export default function debugPrintChanges(changes: null, isPush: boolean): void {
   if (process.env.NODE_ENV === 'production') {

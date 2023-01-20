@@ -1,11 +1,11 @@
-declare module '@nozbe/watermelondb/Schema/migrations' {
+declare module '@code-oss-org/watermelondb/Schema/migrations' {
   import {
     SchemaVersion,
     TableName,
     ColumnMap,
     ColumnSchema,
     TableSchemaSpec,
-  } from '@nozbe/watermelondb/Schema'
+  } from '@code-oss-org/watermelondb/Schema'
 
   export interface SchemaMigrations {
     validated: true

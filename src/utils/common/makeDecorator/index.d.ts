@@ -1,5 +1,5 @@
-declare module '@nozbe/watermelondb/utils/common/makeDecorator' {
-  import { ReplaceReturn } from '@nozbe/watermelondb/utils/common'
+declare module '@code-oss-org/watermelondb/utils/common/makeDecorator' {
+  import { ReplaceReturn } from '@code-oss-org/watermelondb/utils/common'
 
   export type Descriptor = Object
   export type RawDecorator = (target: Object, key: string, descriptor: Descriptor) => Descriptor

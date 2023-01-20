@@ -1,7 +1,7 @@
-declare module '@nozbe/watermelondb/Query' {
-  import { Collection, ColumnName, Model, TableName, RecordId } from '@nozbe/watermelondb'
-  import { AssociationInfo } from '@nozbe/watermelondb/Model'
-  import { Clause, QueryDescription } from '@nozbe/watermelondb/QueryDescription'
+declare module '@code-oss-org/watermelondb/Query' {
+  import { Collection, ColumnName, Model, TableName, RecordId } from '@code-oss-org/watermelondb'
+  import { AssociationInfo } from '@code-oss-org/watermelondb/Model'
+  import { Clause, QueryDescription } from '@code-oss-org/watermelondb/QueryDescription'
   import { Observable } from 'rxjs'
 
   export type QueryAssociation = { from: TableName<any>; to: TableName<any>; info: AssociationInfo }

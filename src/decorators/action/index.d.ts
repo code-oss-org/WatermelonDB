@@ -1,4 +1,4 @@
-declare module '@nozbe/watermelondb/decorators/action' {
+declare module '@code-oss-org/watermelondb/decorators/action' {
   const action: MethodDecorator
 
   export default action

@@ -1,5 +1,5 @@
-declare module '@nozbe/watermelondb/decorators/common' {
-  import { ColumnName } from '@nozbe/watermelondb'
+declare module '@code-oss-org/watermelondb/decorators/common' {
+  import { ColumnName } from '@code-oss-org/watermelondb'
 
   export function ensureDecoratorUsedProperly(
     columnName: ColumnName,
